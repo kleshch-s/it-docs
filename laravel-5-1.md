@@ -1,10 +1,7 @@
 Laravel 5.1 Docs
 ===============
 
-[TOC]
-
 # Установка и первоначальная настройка
-
 
 **App::environment()** - получаем имя текущего окружения
 **App::environment('local')**
@@ -28,7 +25,7 @@ Laravel использует **PSR-4** автозагрузку классов
 Что-то типа консоли для Chrome. Можно смотреть на результаты запросов к базе данных или например создать массив и изучать в реальном времени на нём сортировки.
 Работают фасады и хелперы laravel2
 
-<i class='icon-pencil'></i>  у Laravel есть такой же **дебаг-бар** как и у Yii - **barryvdh/laravel-debugbar** ([Git репо](https://github.com/barryvdh/laravel-debugbar)) из коробки он настроен для отображения **при DEBUG true**
+У Laravel есть такой же **дебаг-бар** как и у Yii - **barryvdh/laravel-debugbar** ([Git репо](https://github.com/barryvdh/laravel-debugbar)) из коробки он настроен для отображения **при DEBUG true**
 Можно отправлять различные сообщения помимо стандартного файл-логгера, ещё и в **Дебагбар**
 
-<i class='icon-pencil'></i>  Запуск тестов - командной строке - **vendor\bin\phpunit**  (там же кстати лежит и **phpspec**)
+Запуск тестов - командной строке - **vendor\bin\phpunit**  (там же кстати лежит и **phpspec**)
